@@ -1,0 +1,1 @@
+docker run -d --name axonserver -p 8024:8024 -p 8124:8124 -v "%cd%/axon-docker-data/data:/data" -v "%cd%/axon-docker-data/eventdata:/eventdata" -v "%cd%/axon-docker-data/config:/config" axoniq/axonserver:4.4.7
